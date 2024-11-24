@@ -8,13 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body class="bg-light">
-
-    <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="container vh-100 d-flex justify-content-center align-items-center">
         <div class="text-center">
-            <div class="card shadow-lg p-5" style="width: 100%; max-width: 400px;">
-                <h1 class="text-primary mb-4">Selamat Datang Admin</h1>
-                <p class="text-secondary">Anda telah berhasil masuk ke sistem. Semoga hari Anda menyenangkan!</p>
-                <a href="#" class="btn btn-primary mt-3">Masuk ke Dashboard</a>
+            <div class="card shadow-lg p-4" style="width: 100%; max-width: 500px;">
+                <h1 class="text-primary">Selamat Datang Admin</h1>
+                <p class="text-secondary">Anda telah berhasil masuk ke sistem. Nikmati hari Anda!</p>
+                <a href="show.php" class="btn btn-primary mt-3">Masuk ke Dashboard</a>
+                <a href="index.php" class="btn btn-outline-danger mt-3">Logout</a>
             </div>
         </div>
     </div>
